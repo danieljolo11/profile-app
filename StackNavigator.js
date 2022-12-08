@@ -1,7 +1,7 @@
 import React from 'react'
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import Home from './components/home';
+import Home from './screens/PlantDesigns/home';
 import useAuth from './authProvider';
 
 

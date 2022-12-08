@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./pages/**/*.{html,js}", "./components/**/*.{html,js}"],
+  content: ["./pages/**/*.{html,js}", "./components/**/*.{html,js}", "./screens/**/*.{html,js}"],
   theme: {
     extend: {},
   },

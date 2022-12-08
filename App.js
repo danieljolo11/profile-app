@@ -2,7 +2,6 @@ import { useCallback, useEffect } from "react";
 import { View } from "react-native";
 import { TailwindProvider } from "tailwind-rn";
 import { NavigationContainer } from "@react-navigation/native";
-import Home from "./components/home";
 import utilities from "./tailwind.json";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";

@@ -140,7 +140,7 @@ const Home = ({ navigation }) => {
   const renderFooter = () => {
     return (
       <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-        <View style={tw("flex-1 flex-row justify-between items-center")}>
+        <View style={tw("flex-1 flex-row justify-between items-center mx-6")}>
           {FooterData.map((item, index) => (
             <View key={index} style={tw("pr-8 border-b border-gray-700")}>
               <Text
